@@ -35,6 +35,6 @@ use("practiceDB");
 
 // 
 
-db.crops.deleteOne({name:'Rice'})
+// db.crops.deleteOne({name:'Rice'})
 
-db.crops.deleteOne({price:{$gt:4000}})
+// db.crops.deleteOne({price:{$gt:4000}})
