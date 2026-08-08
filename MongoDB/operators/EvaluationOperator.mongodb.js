@@ -17,4 +17,3 @@ use ('practiceDB')
 db.farms.find({
   $expr: { $gt: ["$income", "$area"] }
 });
-db.farms.find();
